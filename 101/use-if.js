@@ -4,7 +4,7 @@
  * else the age is over 4 and under 18 return true
  */
 function canHavePhone (age) {
-  return true
+  return age >= 4 && age <= 18;
 }
 
 
@@ -34,7 +34,7 @@ while (x < 21) {
   if ((x < 4 && canHave) || (x > 18 && canHave)) {
     passed = false
   }
-  if ((x > 4 && !canHave) || (x < 18 && !canHave)) {
+  if ((x >= 4 && !canHave) && (x <= 18 && !canHave)) {
     passed = false
   }
   x++

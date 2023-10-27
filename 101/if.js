@@ -1,9 +1,9 @@
-const name = 'Child'
-const age = 0
-const hairColor = ''
-const eyeColor = ''
+const name = 'ryan'
+const age = 16
+const hairColor = 'red'
+const eyeColor = 'blue'
 
-console.log(`${name} is ${age} years old and has ${hairColor} hair color with ${eyeColor}.`)
+console.log(`${name} is ${age} years old and has ${hairColor} hair color with ${eyeColor} eye color.`)
 
 if (age > 12 && age < 18) {
   console.log(`${name} is a teenager`)
