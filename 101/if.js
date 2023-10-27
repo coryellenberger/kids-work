@@ -1,7 +1,7 @@
-const name = 'Child'
-const age = 0
-const hairColor = ''
-const eyeColor = ''
+const name = 'cylus'
+const age = 12
+const hairColor = 'brown'
+const eyeColor = 'brown'
 
 console.log(`${name} is ${age} years old and has ${hairColor} hair color with ${eyeColor} eyes.`)
 

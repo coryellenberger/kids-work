@@ -4,11 +4,13 @@
  * else the age is over 4 and under 18 return true
  */
 function canHavePhone (age) {
-  return true
+  if (age > 18)
+    return false
+  if (age > 3)
+    return true
+  if (age < 3)
+    return false
 }
-
-
-
 
 
 
