@@ -1,0 +1,19 @@
+{
+  "name": "kids-work",
+  "version": "1.0.0",
+  "description": "Kids work",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coryellenberger/kids-work.git"
+  },
+  "keywords": [
+    "kids"
+  ],
+  "author": "Cory Ellenberger <cory.ellen.ce@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coryellenberger/kids-work/issues"
+  },
+  "homepage": "https://github.com/coryellenberger/kids-work#readme"
+}
