@@ -34,7 +34,7 @@ while (x < 21) {
   if ((x < 4 && canHave) || (x > 18 && canHave)) {
     passed = false
   }
-  if ((x > 4 && !canHave) || (x < 18 && !canHave)) {
+  if ((x >= 4 && !canHave) && (x <= 18 && !canHave)) {
     passed = false
   }
   x++

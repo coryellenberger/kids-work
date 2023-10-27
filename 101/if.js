@@ -3,7 +3,7 @@ const age = 0
 const hairColor = ''
 const eyeColor = ''
 
-console.log(`${name} is ${age} years old and has ${hairColor} hair color with ${eyeColor}.`)
+console.log(`${name} is ${age} years old and has ${hairColor} hair color with ${eyeColor} eyes.`)
 
 if (age > 12 && age < 18) {
   console.log(`${name} is a teenager`)
